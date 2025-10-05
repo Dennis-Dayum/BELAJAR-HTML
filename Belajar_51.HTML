@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Web Styling - Landing Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 40px;
+      background-color: rgb(187, 54, 204);
+    }
+
+    .image-gallery {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin-bottom: 50px;
+    }
+
+    .image-gallery img {
+      width: 150px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    h2 {
+      font-size: 22px;
+      margin-bottom: 30px;
+    }
+
+    .button-group button {
+      display: block;
+      width: 200px;
+      margin: 10px auto;
+      padding: 10px;
+      font-size: 16px;
+      cursor: pointer;
+      border: 1px solid #333;
+      border-radius: 5px;
+      background-color: #F5D;
+      transition: background-color 01s;
+    }
+
+    .button-group button:hover {
+      background-color: #f0f0f0;
+    }
+
+    .signin {
+      margin-top: 20px;
+      font-size: 14px;
+    }
+
+    .signin a {
+      color: #0073e6;
+      text-decoration: none;
+    }
+
+    .signin a:hover {
+      text-decoration: underline;
+    }
+
+    .audio-wrapper {
+  background: linear-gradient(to right, #F5D, #F5D);
+  padding: 5px;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+ }
+
+    .audio-wrapper audio {
+        text-align: center;
+        width: 100%;
+        border-radius: 90px;
+     }
+  </style>
+</head>
+<body>
+  <h1>Welcome To – Galeri My istri guehj</h1>
+
+  <div class="image-gallery">
+    <img src="MULTIMEDIA/a0034e2ed9dc9e4e76727e4fbdb31d0c.jpg" alt="Pict 1">
+    <img src="MULTIMEDIA/a8c75ba06a02a358ef730290f4e4b120.jpg" alt="Pict 2">
+    <img src="MULTIMEDIA/WAGURI.jpg" alt="Pict 3">
+    <img src="MULTIMEDIA/wp14760888.jpg" alt="Pict 4">
+    <img src="MULTIMEDIA/wp14760893.jpg" alt="Pict 5">
+  </div>
+
+  <h2>Want to create your own web site?</h2>
+
+  <div class="button-group">
+    <button>Website</button>
+    <button>Portofolio</button>
+    <button>New Project</button>
+  </div>
+
+  <div class="signin">
+    Already have an account? <a href="#">Sign in</a>
+  </div>
+
+  <div class="audio-wrapper"><p align="center"><audio src="MULTIMEDIA/WhatsApp Audio 2025-08-20 at 23.39.40.mpeg" controls loop ></audio></p></div>
+</body>
+</html>
