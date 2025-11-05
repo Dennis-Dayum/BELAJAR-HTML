@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tag Datalist</title>
+</head>
+<body>
+    <form action="">
+        <label for="browser">Choose Your Browser:</label>
+        <input type="text" list="browsers" placeholder="Type or choose..">
+        <datalist id="browsers">
+            <option value="Chrome">Chrome</option>
+            <option value="Firefox">Firefox</option>
+            <option value="Safari">Safari</option>
+            <option value="Opera">Opera</option>
+        </datalist>
+        <br>
+        <br>
+        <label for="">Choose a Quantity (1-5):</label>
+        <input type="number" list="quantities" placeholder="Pilih Angka" min="1" max="5" step="1">
+        <datalist id="quantities">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </datalist>
+        <br>
+        <br>
+        <button type="submit">KIRIM</button>
+    </form>
+
+    <!-- KEGUNAAN DATA LIST TAG 
+     1.USER SUGGESTION (Memberikan saran pilihan kepada User)
+     2.Tidak Membatasi input (User bisa masukin nilai dia sendiri)
+     3.Meningkarkan User Experience (Terutama ketika input melibatkan nilai yg sering diulang,seperti browser, bahasa, negara, dll)
+     4.Flexible (Bisa digunakanan dengan berbagai jenis input seperti : teks,email,nomor dll)
+      -->
+     <!-- Perbedaan tag datalist dengan tag
+    datalist : digunakan untuk membantu pengisian elemen input teks, dimana user bisa ngetik nilai yg tidak ada di daftar
+    select : membatasi pilihan hanya pada opsi yang ada
+
+    tampilan dropdown : select selalu menunjukkan dropdown dengan semua opsi, kalo datalist menampilkan daftar hannya ketika pengguna mulai mengetik di tag input
+     -->
+</body>
+</html>
